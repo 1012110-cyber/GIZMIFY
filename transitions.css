@@ -1,0 +1,38 @@
+.nav-links a,
+.btn-primary,
+.featured-card,
+.product-card,
+.brand-pill,
+.footer-col a {
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: var(--accent);
+}
+
+.btn-primary:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.featured-card:hover,
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.featured-card:nth-child(3):hover {
+  background: #1e293b;
+}
+
+.brand-pill:hover {
+  background: var(--bg-dark);
+  color: #fff;
+  border-color: var(--bg-dark);
+  cursor: pointer;
+}
+
+.footer-col a:hover {
+  color: #fff;
+}

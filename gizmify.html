@@ -1,0 +1,348 @@
+<html>
+<head>
+	<title>GIZMIFY — Electronics & Tech Store</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="transitions.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="brand-logo">
+	  <img src="logo_b.png" width="50" height="50">
+      </a>
+
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="#">HOME <span class="chevron"></span></a>
+        <a href="#cameras">CAMERAS</a>
+        <a href="#phones">PHONES</a>
+        <a href="#household">HOUSEHOLD <span class="chevron"></span></a>
+      </nav>
+
+      <div class="search-box">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <circle cx="11" cy="11" r="7"></circle>
+          <line x1="20" y1="20" x2="16.65" y2="16.65"></line>
+        <input type="search" placeholder="SEARCH" aria-label="Search products" />
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" style="padding: 0; background: #000000;">
+    <a href="#featured" style="display: block; width: 100%;">
+      <img src="Gizmify.png" alt="Featured Products: iPhone 18 Pro - Pro further." style="width: 100%; height: auto; display: block; max-height: 600px; object-fit: contain; margin: 0 auto;" />
+    </a>
+  </section>
+
+      <div class="hero-dots" aria-label="Slide indicators">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </section>
+
+  <section id="featured" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">FEATURED PRODUCTS</h2>
+        <a href="#cameras" class="view-more-link">VIEW MORE &rarr;</a>
+      </div>
+
+      <div class="featured-grid">
+        <a href="https://www.apple.com/ph/shop/buy-iphone/iphone-18-pro?afid=p240%7Cgo~cmp-24240440563~adg-201550004553~ad-824282221897_kwd-852098835094~dev-c~ext-419839429866~prd-~mca-~nt-search&cid=wwa-ph-kwgo-iphone-Core-iphone18promax-iphone18promax_hero_avail_101626-iPhone_Core_Exact-iPhone18ProMax_Exact-">
+        <article class="featured-card">
+          <div class="featured-img-slot"><div class="promax"><img src="18max.png"></div></div>
+          <div>
+            <h3 class="product-name">IPHONE 18 PRO/MAX</h3>
+            <p class="product-price">From ₱94,990</p>
+          </div>
+        </article>
+		</a>
+
+        <a href="https://www.sony.com.ph/electronics/interchangeable-lens-cameras/ilme-fx5">
+        <article class="featured-card">
+          <div class="featured-img-slot"><div class="cinemaline"><img src="fx3.png"></div></div>
+          <div>
+            <h3 class="product-name">SONY FX5 CINEMALINE CAMERA</h3>
+            <p class="product-price">From ₱318,000</p>
+          </div>
+        </article>
+		</a>
+
+        <article class="featured-card dark-banner">
+          <h3>SHOP FOR MORE HERE</h3>
+          <a href="#cameras" class="btn-primary">EXPLORE</a>
+        </article>
+
+        <a href="https://www.apple.com/ph/shop/buy-iphone/iphone-duo?afid=p240%7Cgo~cmp-24229399182~adg-201550004633~ad-824239677312_kwd-2499483419973~dev-c~ext-419839470567~prd-~mca-~nt-search&cid=wwa-ph-kwgo-iphone-noncore_iphoneduo-iphoneduo-iphoneduo_hero_avail_103026-iPhoneDuo-iPhoneDuo-">
+        <article class="featured-card">
+          <div class="featured-img-slot"><div class="duo"><img src="duo.png"></div></div>
+          <div>
+            <h3 class="product-name">IPHONE DUO</h3>
+            <p class="product-price">From ₱159,999</p>
+          </div>
+        </article>
+		</a>
+
+        <a href="https://www.apple.com/ph/shop/buy-mac/macbook-pro/14-inch-space-black-standard-display-apple-m6-chip-12-core-cpu-12-core-gpu-16gb-memory-1tb-storage">
+        <article class="featured-card">
+          <div class="featured-img-slot"><div class="mbpro"><img src="mbpro.png"></div></div>
+          <div>
+            <h3 class="product-name">APPLE 14-INCH MACBOOK PRO (M6 CHIP)</h3>
+            <p class="product-price">From ₱154,740</p>
+          </div>
+        </article>
+		</a>
+
+        <a href="https://www.henryscameraphoto.com/DJI-Osmo-Action-6-Adventure-Combo?srsltid=AYCX9vLDAl8208eN9Xbp-y1B3oEvCH7pWl969m21NVfPrUWsTu5WNjPt">
+        <article class="featured-card">
+          <div class="featured-img-slot"><div class="action6"><img src="action6.png"></div></div>
+          <div>
+            <h3 class="product-name">DJI OSMO ACTION 6</h3>
+            <p class="product-price">From ₱25,690</p>
+          </div>
+        </article>
+		</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="cameras" class="category-section">
+    <div class="container">
+      <div class="category-header-bar">
+        <h2>CAMERAS</h2>
+        <div class="brand-filter-group">
+          <span class="brand-filter-label">BRANDS</span>
+          <button type="button" class="brand-pill"><a href="https://www.sony.com.ph/">Sony</a></button>
+          <button type="button" class="brand-pill"><a href="https://ph.canon/en/consumer">Canon</a></button>
+          <button type="button" class="brand-pill"><a href="https://www.nikon.com/">Nikon</a></button>
+          <button type="button" class="brand-pill"><a href="https://www.fujifilm.com/ph/en">Fujifilm</a></button>
+        </div>
+      </div>
+
+      <p class="products-sublabel">PRODUCTS</p>
+
+      <div class="product-grid-4">
+        <a href="https://www.sony.com.ph/electronics/interchangeable-lens-cameras/ilme-fx5">
+		<article class="product-card">
+          <div class="product-thumb"><div class="cinemaline"><img src="fx3.png"></div></div>
+          <div>
+            <h3>SONY FX5 CINEMALINE CAMERA</h3>
+            <p class="price">From ₱318,000</p>
+          </div>
+        </article>
+		</a>
+
+        <a href="https://www.henryscameraphoto.com/DJI-Osmo-Action-6-Adventure-Combo?srsltid=AYCX9vLDAl8208eN9Xbp-y1B3oEvCH7pWl969m21NVfPrUWsTu5WNjPt">
+        <article class="product-card">
+          <div class="product-thumb"><div class="action6"><img src="action6.png"></div></div>
+          <div>
+            <h3>DJI OSMO ACTION 6</h3>
+            <p class="price">From ₱25,690</p>
+          </div>
+        </article>
+		</a>
+
+        <a href="https://www.henryscameraphoto.com/DJI-Mini-5Pro-Fly-More-Combo-RC3?srsltid=AYCX9vKbIA2qIsjzsvIid0FNdm_RArIL7oB9fJZRnGi52P59lAsvfj_w">
+		<article class="product-card">
+          <div class="product-thumb"><div class="mini5pro"><img src="m5pro.png"></div></div>
+          <div>
+            <h3>DJI MINI 5 PRO</h3>
+            <p class="price">From ₱57,990</p>
+          </div>
+        </article>
+		</a>
+
+        <a href="https://www.henryscameraphoto.com/Canon-EOS-R7?srsltid=AYCX9vIFnQpmFksKs6CcrXtksU3BfMDNKxwKPEivN2qzScJKS10Q8nNI">
+        <article class="product-card">
+          <div class="product-thumb"><div class="r7"><img src="r7.png"></div></div>
+          <div>
+            <h3>CANON R7</h3>
+            <p class="price">From ₱84,999</p>
+          </div>
+        </article>
+		</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="phones" class="category-section">
+    <div class="container">
+      <div class="category-header-bar">
+        <h2>PHONES</h2>
+        <div class="brand-filter-group">
+          <span class="brand-filter-label">BRANDS</span>
+          <button type="button" class="brand-pill"><a href="https://www.apple.com/ph/">Apple</a></button>
+          <button type="button" class="brand-pill"><a href="https://www.samsung.com/ph/offer/">Samsung</a></button>
+          <button type="button" class="brand-pill"><a href="https://store.google.com/us/?srsltid=AYCX9vIKH9RQzdDEm8hP_dBT1QrvSA8Q6aFXS51tVMCEMcUbRcCbM5EJ&hl=en-US">Google Pixel</a></button>
+          <button type="button" class="brand-pill"><a href="https://www.mi.com/ph/event/11-11-mega-sale/?utm_campaign=micom_ph_search_brand&utm_channel=search&utm_source=google&utm_medium=paid-search&utm_type=1&utm_content=brand&gad_source=1&gad_campaignid=23837824287&gbraid=0AAAABDoff9JvjUAmG6Y1YZfZx9cuqXJH0&gclid=EAIaIQobChMIkvvo6MCQmAMVR5tmAh1RAiPDEAAYASAAEgJbnfD_BwE">Xiaomi</a></button>
+          <button type="button" class="brand-pill"><a href="https://www.vivo.com/ph?_ga=2.55688683.1975368122.1794970161-349936922.1794970161&_gac=1.244509105.1794970161.EAIaIQobChMInvD29cCQmAMVnIVmAh0dvglGEAAYASAAEgJWZfD_BwE&_gl=1*10zpfjv*_ga*MzQ5OTM2OTIyLjE3OTQ5NzAxNjE.*_ga_68BLCXM546*czE3OTQ5NzAxNjEkbzEkZzEkdDE3OTQ5NzAxNjEkajYwJGwwJGgw*_gcl_aw*R0NMLjE3OTQ5NzAxNjEuRUFJYUlRb2JDaE1JbnZEMjljQ1FtQU1WbklWbUFoMGR2Z2xHRUFBWUFTQUFFZ0pXWmZEX0J3RQ..*_gcl_au*MjE5Mjc3MzYwLjE3OTQ5NzAxNjE.">Vivo</a></button>
+        </div>
+      </div>
+
+      <p class="products-sublabel">PRODUCTS</p>
+
+      <div class="product-grid-4">
+
+        <a href="https://www.apple.com/ph/shop/buy-iphone/iphone-18-pro?afid=p240%7Cgo~cmp-24240440563~adg-201550004553~ad-824282221897_kwd-852098835094~dev-c~ext-419839429866~prd-~mca-~nt-search&cid=wwa-ph-kwgo-iphone-Core-iphone18promax-iphone18promax_hero_avail_101626-iPhone_Core_Exact-iPhone18ProMax_Exact-">
+        <article class="product-card">
+          <div class="product-thumb"><div class="promax"><img src="18max.png"></div></div>
+          <div>
+            <h3>IPHONE 18 PRO/MAX</h3>
+            <p class="price">From ₱94,990</p>
+          </div>
+        </article>
+		</a>
+
+        <article class="product-card">
+
+        <a href="https://www.apple.com/ph/shop/buy-iphone/iphone-duo?afid=p240%7Cgo~cmp-24229399182~adg-201550004633~ad-824239677312_kwd-2499483419973~dev-c~ext-419839470567~prd-~mca-~nt-search&cid=wwa-ph-kwgo-iphone-noncore_iphoneduo-iphoneduo-iphoneduo_hero_avail_103026-iPhoneDuo-iPhoneDuo-">
+          <div class="product-thumb"><div class="duo"><img src="duo.png"></div></div>
+          <div>
+            <h3>IPHONE DUO</h3>
+            <p class="price">From ₱159,999</p>
+          </div>
+        </article>
+		</a>
+
+        <a href="https://store.google.com/us/config/pixel_11_pro?hl=en-US&selections=eyJwcm9kdWN0RmFtaWx5IjoiY0dsNFpXeGZNVEZmY0hKdiJ9">
+        <article class="product-card">
+          <div class="product-thumb"><div class="pixel11"><img src="pixel11.png"></div></div>
+          <div>
+            <h3>GOOGLE PIXEL 11 PRO</h3>
+            <p class="price">From ₱65,499</p>
+          </div>
+        </article>
+		</a>
+		
+        <a href="https://www.samsung.com/ph/smartphones/galaxy-z-fold8/buy/">
+        <article class="product-card">
+          <div class="product-thumb"><div class="fold8"><img src="fold8.png"></div></div>
+          <div>
+            <h3>SAMSUNG FOLD 8</h3>
+            <p class="price">From ₱109,990</p>
+          </div>
+        </article>
+		</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="household" class="category-section">
+    <div class="container">
+      <div class="category-header-bar">
+        <h2>HOUSEHOLD</h2>
+        <div class="brand-filter-group">
+          <span class="brand-filter-label">BRANDS</span>
+          <button type="button" class="brand-pill"><a href="https://www.mi.com/ph/event/11-11-mega-sale/?utm_campaign=micom_ph_search_brand&utm_channel=search&utm_source=google&utm_medium=paid-search&utm_type=1&utm_content=brand&gad_source=1&gad_campaignid=23837824287&gbraid=0AAAABDoff9JvjUAmG6Y1YZfZx9cuqXJH0&gclid=EAIaIQobChMIkvvo6MCQmAMVR5tmAh1RAiPDEAAYASAAEgJbnfD_BwE">Xiaomi</a></button>
+          <button type="button" class="brand-pill"><a href="https://www.lg.com/ph/refrigerator/all-refrigerator/?utm_source=google-ads&utm_medium=cpc&utm_campaign=HQ-HS-SEM_HS_REF_PH_AO_NA_CNS_PSE_consideration_BRA_EN_lg.com_NA_BM_tCPA_BCL_google-ads_AO&utm_content=20250217_Generic_NA_BCL&utm_term=NA&gad_source=1&gad_campaignid=22272583111&gbraid=0AAAAADDCN3RVlJIcNZZqJWUjxPGD1yB6r&gclid=EAIaIQobChMIneaYo8GQmAMVrMQ8Ah32FBOYEAAYASAAEgKEm_D_BwE">LG</a></button>
+          <button type="button" class="brand-pill"><a href="https://www.panasonic.com/ph/consumer/air-solution/fan.html?gad_source=1&gad_campaignid=24388015165&gbraid=0AAAAADSA0yD6CVe0VhupwjTAoAyrp30aK&gclid=EAIaIQobChMIr8XVrcGQmAMVEJNmAh1c2R8YEAAYASAAEgLAIfD_BwE">Panasonic</a></button>
+          <button type="button" class="brand-pill"><a href="https://www.sony.com.ph/">Sony</a></button>
+          <button type="button" class="brand-pill"><a href="https://www.samsung.com/ph/offer/">Samsung</a></button>
+        </div>
+      </div>
+
+      <p class="products-sublabel">PRODUCTS</p>
+
+      <div class="product-grid-4">
+        <a href="https://xiaomistoreph.com/products/xiaomi-air-purifier-4-compact?srsltid=AYCX9vId02wtd-L7lGK7ZilJumcVnr1XhMZzxAMzPDrtH-cJxOPyQqEw">
+		<article class="product-card">
+          <div class="product-thumb"><div class="scap"><img src="scap.png"></div></div>
+          <div>
+            <h3>XIAOMI SMART AIR PURIFIER 4 COMPACT</h3>
+            <p class="price">From ₱3,660</p>
+          </div>
+        </article>
+		</a>
+
+        <a href="https://www.apple.com/shop/buy-homepod/homepod">
+        <article class="product-card">
+          <div class="product-thumb"><div class="apod"><img src="apod.png"></div></div>
+          <div>
+            <h3>APPLE HOMEPOD 2</h3>
+            <p class="price">From ₱21,702</p>
+          </div>
+        </article>
+		</a>
+		
+        <a href="https://www.apple.com/shop/buy-homepod/homepod-mini">
+        <article class="product-card">
+          <div class="product-thumb"><div class="podmini"><img src="podmini.png"></div></div>
+          <div>
+            <h3>APPLE HOMEPOD MINI 2</h3>
+            <p class="price">From ₱9,539</p>
+          </div>
+        </article>
+		</a>
+
+        <a href="https://xiaomistoreph.com/products/xiaomi-bluetooth-speaker-mini?srsltid=AYCX9vJJlw7W7Zop4Ei7-bCRnWejkahdBMd6UEGaets-0jQwt6G332CQ">
+        <article class="product-card">
+          <div class="product-thumb"><div class="bsmini"><img src="bsmini.png"></div></div>
+          <div>
+            <h3>XIAOMI BLUETOOTH SPEAKER MINI</h3>
+            <p class="price">From ₱1,699</p>
+          </div>
+        </article>
+		</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="brand-logo">
+            <img src="logo.png" width="50" height="50">
+            <span>GIZMIFY</span>
+          </a>
+        </div>
+
+        <div class="footer-col">
+          <h4>ABOUT US</h4>
+          <ul>
+            <li><a href="#">ACCESSIBILITY</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>POLICIES</h4>
+          <ul>
+            <li><a href="#">CYBER SECURITY REPORT</a></li>
+            <li><a href="#">PRIVACY &amp; POLICY</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>SUPPORT</h4>
+          <ul>
+            <li><a href="help.html">HELP &amp; SUPPORT</a></li>
+            <li><a href="help.html">FEEDBACKS</a></li>
+            <li><a href="credits.html">CREDITS</a></li>
+            <li><a href="credits.html">CONTACTS</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>FOLLOW US</h4>
+          <div class="social-icons">
+            <a href="" class="social-btn" aria-label="Facebook">f</a>
+            <a href="" class="social-btn" aria-label="X / Twitter">X</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>GIZMIFY PROJECT. ALL RIGHTS RESERVED.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
